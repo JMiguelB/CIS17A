@@ -6,13 +6,13 @@
 /* 
  * File:   main.cpp
  * Author: J Miguel Belarmino
- * Created on Sept 6th, 2025, 12:24 AM
- * Purpose:  Template to be used for all
- *           future Hmwk, Labs, Exams, Projects
+ * Created on Sept 10th, 2025, 9:04 PM
+ * Purpose:  Converting Celsius to Fahrenheit
  */
 
 //System Libraries
 #include <iostream>  //Input Output Library
+#include <iomanip>   //Formatting Library
 using namespace std;
 
 //User Libraries
@@ -27,13 +27,15 @@ int main(int argc, char** argv) {
     //Set random number seed
     
     //Declare Variables
-    
+    float cel, fah;
     //Initialize Variables
-    
+    cout<<"Input Degrees Celsius to convert to Degrees Fahrenheit."<<endl;
+    cin>>cel;
     //Map/Process the Inputs -> Outputs
-    
+    fah= 9/5.0f*cel+32; //formula converts Celsius to Fahrenheit
     //Display Inputs/Outputs
-    
+    cout<<fixed<<setprecision(1)<<showpoint;
+    cout<<"Degrees Fahrenheit = " <<fah<<" degrees"<<endl;
     //Clean up memory and files
     
     //Exit the Program

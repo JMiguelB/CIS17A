@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Gaddis_9thEd_Chap3
+PROJECTNAME=Gaddis_9thEd_Chap3_Prob12_CelsiustoFahrenheit
 
 # Active Configuration
 DEFAULTCONF=Debug
