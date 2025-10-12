@@ -2,8 +2,7 @@
  * File:   main.cpp
  * Author: J Miguel Belarmino
  * Created on Sept 27th, 2025, 8:05 PM
- * Purpose:  Template to be used for all
- *           future Hmwk, Labs, Exams, Projects
+ * Purpose:  Median - Dynamic Memory Allocation
  */
 
 //System Libraries
@@ -27,14 +26,14 @@ int main(int argc, char** argv) {
     
     //Declare Variables
     int size;
-    int *array = getData(size);
+    int *array;
+    float *medArray;
     //Initialize Variables
+    array=getData(size);
+    medArray=median(array,size);
     
     //Map/Process the Inputs -> Outputs
     prntDat(array,size);
-
-    float *medArray = median(array,size);
-
     //Display Inputs/Outputs
     prntMed(medArray);
     //Clean up memory and files

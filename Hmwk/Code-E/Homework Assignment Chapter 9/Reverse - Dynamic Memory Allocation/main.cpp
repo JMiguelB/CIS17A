@@ -1,7 +1,7 @@
 /* 
  * File:   main.cpp
  * Author: J Miguel Belarmino
- * Created on Sept 28th, 2025, 3:24 PM
+ * Created on Oct 4th, 2025, 5:42 PM
  * Purpose: Output the reverse sorted dynamic 
  *          array by first sorting from smallest
  *          to largest.
