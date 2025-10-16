@@ -102,13 +102,13 @@ vector<int> fillAry(int n,int hr,int lr){
 
 vector<vector<int>> fillAry(int rows,int cols){
     //Allocate Memory for 2-D Array
-    rows=rows<2?2:rows;
-    cols=cols<2?2:cols;
-    return vector<vector<int>> (rows, vector<int>(cols, 0));
-    /*for(int row=0;row<rows;row++){
-        a[row]=new int[cols];
+    vector<vector<int>> grid;
+    for(int i=0;i<rows;i++){
+        vector<int> curRow(cols, 0);
+        grid.push_back(curRow);
     }
-    //Fill it with 0's
+    return grid;
+    /*//Fill it with 0's
     for(int row=0;row<rows;row++){
         for(int col=0;col<cols;col++){
             a[row][col]=0;
